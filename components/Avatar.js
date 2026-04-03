@@ -4,7 +4,7 @@ export default function Avatar({ uri, size = 40, showBorder = false, label = '' 
   return (
     <View style={styles.container}>
       <Image
-        source={{ uri: uri || 'C:\Users\BIGSAM TECH\Documents\Social_Media_APP\FacebookRedesign/assets/3d-rendering-of-a-female-robot-head-with-glowing-particles-on-black-background-ai-generative-image-free-photo.jpg' }}
+        source={{ uri: uri || '../assets/3d-rendering-of-a-female-robot-head-with-glowing-particles-on-black-background-ai-generative-image-free-photo.jpg' }}
         style={[
           styles.avatar,
           showBorder && styles.border,
